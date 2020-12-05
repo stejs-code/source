@@ -1,0 +1,7 @@
+*{
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.hidden{
+    opacity: 0;
+}

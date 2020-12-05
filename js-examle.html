@@ -6,12 +6,17 @@
     <title>stejsSource(JavaScript)</title>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />    
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <h1 id="headercolor">Color changer</h1>
+<body class="uk-padding">
+    <h1>Welcome to stejsSource() of JavaScript</h1>
+    <h2 id="headercolor">Color changer</h1>
     <p>Choose color for header above</p>
     <input type="color" id="colorpicker" onchange="changeColor(this.value, 'headercolor')"></input>
+    <hr>
+    <h2 >"Show and hide" using classes</h2>
+    <img id="hideandseek" src="img/img.png" alt="" style="max-width: 350px; height: auto;">
+    <button id="showbutt" class="uk-button uk-button-default" onclick="hideAndSeek()">Toggle visibility</button>
     <script src="js/script.js"></script> 
 </body>
 </html>
