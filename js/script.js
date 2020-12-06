@@ -18,5 +18,5 @@ function breakButton() {
         document.getElementById("breakbutt").innerHTML = "Broken"
     }
     
-    document.getElementById("breakText").innerHTML = "If you 10x press this button, the button will break (" + no + ")";
+    document.getElementById("breakText").innerHTML = "If you 5x press this button, the button will break (" + no + ")";
 }
