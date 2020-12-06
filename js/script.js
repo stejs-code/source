@@ -15,7 +15,7 @@ function breakButton() {
     no++;
     if (no == 5){
         document.getElementById("breakbutt").disabled = true;
-        document.getElementById("breakbutt").innerHTML = "*broken*"
+        document.getElementById("breakbutt").innerHTML = "**broken**"
     }
     
     document.getElementById("breakText").innerHTML = "If you 5x press this button, the button will break (" + no + ")";
