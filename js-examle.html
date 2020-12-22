@@ -21,6 +21,28 @@
     <h2>Breakable button*</h2>
     <p id="breakText">If you 5x press this button, the button will break</p>
     <button id="breakbutt" class="uk-button uk-button-default" onclick="breakButton()">Try it</button>
+    <hr>
+    <h2>ScrollSpy</h2>
+    <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-left; target: .uk-card; delay: 300; repeat: true">
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">Bottom</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-top">
+                <h3 class="uk-card-title">Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">Bottom</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
     <p>*require UIkit</p>
     <script src="js/script.js"></script> 
 </body>
